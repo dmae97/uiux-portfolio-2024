@@ -13,7 +13,7 @@ const contactMethods = [
   {
     icon: Mail,
     title: '이메일',
-    value: 'example@email.com',
+    value: 'ingeng2004@gmail.com',
     color: 'from-primary to-blue-600',
     action: () => {
       copyToClipboard('example@email.com').then(() => {
@@ -24,7 +24,7 @@ const contactMethods = [
   {
     icon: Phone,
     title: '전화',
-    value: '+82-10-1234-5678',
+    value: '+82-10-8401-0951',
     color: 'from-green-500 to-emerald-600',
     action: () => {
       copyToClipboard('+82-10-1234-5678').then(() => {
@@ -38,7 +38,7 @@ const contactMethods = [
     value: '전문 경력 보기',
     color: 'from-blue-500 to-blue-600',
     action: () => {
-      window.open('https://linkedin.com/in/example', '_blank');
+      window.open('https://www.linkedin.com/in/geunbinyu97/', '_blank');
     }
   },
   {
@@ -47,7 +47,7 @@ const contactMethods = [
     value: '프로젝트 포트폴리오',
     color: 'from-gray-700 to-gray-800',
     action: () => {
-      window.open('https://github.com/example', '_blank');
+      window.open('https://github.com/dmae97?tab=repositories', '_blank');
     }
   }
 ];
